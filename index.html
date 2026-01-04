@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>پورتال نرم‌افزارها</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f5f7fa;
+    }
+    h1 {
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,.08);
+      text-decoration: none;
+      color: #333;
+      transition: .2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px rgba(0,0,0,.12);
+    }
+    .icon {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>پورتال نرم‌افزارها</h1>
+
+<div class="grid">
+  <a class="card" href="https://crm.yourdomain.com">
+    <div class="icon">📊</div>
+    CRM فروش
+  </a>
+
+  <a class="card" href="https://inventory.yourdomain.com">
+    <div class="icon">📦</div>
+    انبار
+  </a>
+
+  <a class="card" href="https://reports.yourdomain.com">
+    <div class="icon">📈</div>
+    گزارش‌ها
+  </a>
+</div>
+
+</body>
+</html>
