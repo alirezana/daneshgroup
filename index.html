@@ -43,12 +43,16 @@
   </style>
 </head>
 <body>
+<script>
+  if (!location.search.includes('v=')) {
+    location.replace(location.pathname + '?v=' + Date.now());
+  }
+</script>
 
 <h1>پورتال نرم‌افزارها</h1>
 
 <div class="grid">
   <a class="card" href="https://script.google.com/macros/s/AKfycbwFNA0PCgV4Tt1c1qBnWjLGTPGUxtiKLbstGcj3xSYvJWW9L3r1_D0BqY6oXVyY6hX5nw/exec">
-    <div class="icon">📊</div>
     ثبت اطلاعات مشتریان
   </a>
 
