@@ -44,8 +44,9 @@
 </head>
 <body>
 <script>
-  if (!location.search.includes('v=')) {
-    location.replace(location.pathname + '?v=' + Date.now());
+  const VERSION = "20260104_1"; // هر تغییر → عوضش کن
+  if (!location.search.includes(`v=${VERSION}`)) {
+    location.replace(location.pathname + '?v=' + VERSION);
   }
 </script>
 
